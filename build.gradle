@@ -1,6 +1,7 @@
 apply plugin: 'java'
 apply plugin: 'groovy'
 apply plugin: 'findbugs'
+apply plugin: 'application'
 
 
 sourceCompatibility = 1.8
@@ -15,6 +16,12 @@ dependencies {
     compile 'commons-configuration:commons-configuration:1.10'
     compile 'commons-collections:commons-collections:3.2.1'
     compile 'commons-beanutils:commons-beanutils:1.9.2'
+
+    // slf4j is NOT required, logback handles that
+    //compile 'org.slf4j:slf4j-api:1.7.10'
+    //compile 'org.slf4j:slf4j-simple:1.7.10'
+    compile 'ch.qos.logback:logback-core:1.1.2'
+    compile 'ch.qos.logback:logback-classic:1.1.2'
 }
 
 jar {
@@ -22,6 +29,10 @@ jar {
         attributes 'Main-Class': 'infra.Main'
     }
 }
+
+
+// for 'application' plugin
+mainClassName = 'infra.Main'
 
 
 // this creates a new task for gradle

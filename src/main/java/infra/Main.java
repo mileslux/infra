@@ -2,11 +2,21 @@ package infra;
 
 import org.apache.commons.configuration.*;
 
+import org.slf4j.*;
+//import ch.qos.logback.core.*;
+//import ch.qos.logback.classic.LoggerContext;
+
 /**
  * Created by nop on 2/10/15.
  */
 public class Main {
+    static Logger logger = LoggerFactory.getLogger(Main.class);
+
     public static void main(String[] args) throws Exception {
+        ////
+        logger.info("Starting program");
+
+        ////
         readConfiguration();
 
         ////
@@ -28,8 +38,9 @@ public class Main {
         Configuration configuration = defaultConfigurationBuilder.getConfiguration();
 
         // this returns a string from application.properties file
-        String q = configuration.getString("greeting");
+        String greetingString = configuration.getString("greeting");
 
+        logger.debug("Greeting string is {}", greetingString);
     }
 
 }

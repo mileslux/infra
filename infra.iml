@@ -23,6 +23,9 @@
     <orderEntry type="library" exported="" name="Gradle: commons-logging:commons-logging:1.1.1" level="project" />
     <orderEntry type="library" exported="" name="Gradle: commons-collections:commons-collections:3.2.1" level="project" />
     <orderEntry type="library" exported="" name="Gradle: commons-beanutils:commons-beanutils:1.9.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: ch.qos.logback:logback-core:1.1.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: ch.qos.logback:logback-classic:1.1.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.slf4j:slf4j-api:1.7.6" level="project" />
   </component>
   <component name="org.twodividedbyzero.idea.findbugs">
     <option name="_basePreferences">
