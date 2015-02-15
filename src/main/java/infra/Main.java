@@ -3,8 +3,6 @@ package infra;
 import org.apache.commons.configuration.*;
 
 import org.slf4j.*;
-//import ch.qos.logback.core.*;
-//import ch.qos.logback.classic.LoggerContext;
 
 /**
  * Created by nop on 2/10/15.

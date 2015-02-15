@@ -22,6 +22,8 @@ dependencies {
     //compile 'org.slf4j:slf4j-simple:1.7.10'
     compile 'ch.qos.logback:logback-core:1.1.2'
     compile 'ch.qos.logback:logback-classic:1.1.2'
+
+    compile 'org.springframework.boot:spring-boot-starter-jetty:1.2.1.RELEASE'
 }
 
 jar {
