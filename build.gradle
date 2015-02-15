@@ -11,5 +11,28 @@ repositories {
 }
 
 dependencies {
+
     testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile 'commons-configuration:commons-configuration:1.10'
 }
+
+
+// this creates a new task for gradle
+// one may add commands to task
+task hello
+hello << {
+    print 'hello, '
+}
+hello << {
+    println 'world!'
+}
+hello {
+    print 'configuring '
+}
+hello {
+    println 'helloworld operation'
+}
+hello.description 'Says hello to the world'
+
+
+
