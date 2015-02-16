@@ -26,6 +26,9 @@
     <orderEntry type="library" exported="" name="Gradle: ch.qos.logback:logback-core:1.1.2" level="project" />
     <orderEntry type="library" exported="" name="Gradle: ch.qos.logback:logback-classic:1.1.2" level="project" />
     <orderEntry type="library" exported="" name="Gradle: org.slf4j:slf4j-api:1.7.6" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.testng:testng:6.8.21" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.beanshell:bsh:2.0b4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.beust:jcommander:1.27" level="project" />
     <orderEntry type="library" exported="" name="Gradle: org.springframework.boot:spring-boot-starter-jetty:1.2.1.RELEASE" level="project" />
     <orderEntry type="library" exported="" name="Gradle: org.eclipse.jetty:jetty-jsp:9.2.4.v20141103" level="project" />
     <orderEntry type="library" exported="" name="Gradle: org.eclipse.jetty:jetty-webapp:9.2.4.v20141103" level="project" />
@@ -148,7 +151,7 @@
         <entry key="FindReturnRef" value="true" />
         <entry key="FindRoughConstants" value="true" />
         <entry key="FindRunInvocations" value="true" />
-        <entry key="FindSelfComparison" value="true" />
+        <entry key="FindSfraelfComparison" value="true" />
         <entry key="FindSelfComparison2" value="true" />
         <entry key="FindSleepWithLockHeld" value="true" />
         <entry key="FindSpinLoop" value="true" />
