@@ -1,4 +1,4 @@
-package infra;
+package com.infra.common;
 
 import org.apache.commons.configuration.*;
 
