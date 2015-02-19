@@ -1,4 +1,4 @@
-package com.infra.common.com.infra.common.rest;
+package com.infra.common.rest;
 
 
 import javax.ws.rs.GET;

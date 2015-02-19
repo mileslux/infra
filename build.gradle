@@ -25,18 +25,21 @@ dependencies {
     compile 'ch.qos.logback:logback-core:1.1.2'
     compile 'ch.qos.logback:logback-classic:1.1.2'
 
-    compile 'org.eclipse.jetty:jetty-server:9.2.7.v20150116'
-    compile 'org.eclipse.jetty:jetty-servlet:9.2.7.v20150116'
+    //compile 'org.eclipse.jetty:jetty-server:9.2.7.v20150116'
+    //compile 'org.eclipse.jetty:jetty-servlet:9.2.7.v20150116'
 
-    compile 'org.glassfish.jersey.core:jersey-server:2.16'
-    compile 'org.glassfish.jersey.containers:jersey-container-jetty-http:2.16'
-    compile 'org.glassfish.jersey.containers:jersey-container-servlet-core:2.16'
+    //compile 'org.glassfish.jersey.core:jersey-server:2.16'
+    //compile 'org.glassfish.jersey.containers:jersey-container-jetty-http:2.16'
+    //compile 'org.glassfish.jersey.containers:jersey-container-servlet-core:2.16'
 
+    //compile 'org.apache.oltu.oauth2:org.apache.oltu.oauth2.resourceserver:1.0.0'
+
+    compile 'io.dropwizard:dropwizard-core:0.8.0-rc2'
 }
 
 jar {
     manifest {
-        attributes 'Main-Class': 'Main'
+        attributes 'Main-Class': 'com.infra.common.Main'
     }
 }
 
@@ -48,7 +51,7 @@ test {
 }
 
 // for 'application' plugin
-mainClassName = 'Main'
+mainClassName = 'com.infra.common.Main'
 
 
 // this creates a new task for gradle

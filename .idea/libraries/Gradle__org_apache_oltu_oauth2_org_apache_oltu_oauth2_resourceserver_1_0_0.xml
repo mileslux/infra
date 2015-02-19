@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.oltu.oauth2:org.apache.oltu.oauth2.resourceserver:1.0.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.oltu.oauth2/org.apache.oltu.oauth2.resourceserver/1.0.0/cf343f8e1d0554337fd21b11f00407f0fd74ea80/org.apache.oltu.oauth2.resourceserver-1.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.oltu.oauth2/org.apache.oltu.oauth2.resourceserver/1.0.0/b2da1ce49e14bb8259727902eea118d368190b73/org.apache.oltu.oauth2.resourceserver-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
