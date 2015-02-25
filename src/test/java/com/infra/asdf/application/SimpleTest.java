@@ -1,4 +1,4 @@
-package com.infra.common;
+package com.infra.asdf.application;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;

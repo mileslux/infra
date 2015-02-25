@@ -1,4 +1,4 @@
-package com.infra.common.rest;
+package com.infra.asdf.application.api;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import org.hibernate.validator.constraints.Length;

@@ -1,4 +1,4 @@
-package com.infra.common.rest;
+package com.infra.asdf.application.resources;
 
 
 import javax.ws.rs.GET;

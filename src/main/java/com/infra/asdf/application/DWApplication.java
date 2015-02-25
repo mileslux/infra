@@ -1,7 +1,7 @@
-package com.infra.common;
+package com.infra.asdf.application;
 
-import com.infra.common.health.SomeResourceHCheck;
-import com.infra.common.resource.SomeResource;
+import com.infra.asdf.application.health.SomeResourceHCheck;
+import com.infra.asdf.application.resources.SomeResource;
 
 import io.dropwizard.Application;
 import io.dropwizard.setup.Bootstrap;

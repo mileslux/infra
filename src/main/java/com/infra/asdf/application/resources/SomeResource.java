@@ -1,8 +1,8 @@
-package com.infra.common.resource;
+package com.infra.asdf.application.resources;
 
 import com.codahale.metrics.annotation.Timed;
 import com.google.common.base.Optional;
-import com.infra.common.rest.Saying;
+import com.infra.asdf.application.api.Saying;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;

@@ -1,4 +1,4 @@
-package com.infra.common;
+package com.infra.asdf.application;
 
 /**
  * Created by mileslux on 2/16/15.

@@ -1,13 +1,8 @@
-package com.infra.common;
+package com.infra.asdf.application;
 
-import com.infra.common.rest.TestMethod;
 import org.apache.commons.configuration.*;
 
 import org.slf4j.*;
-
-import io.dropwizard.Application;
-import io.dropwizard.setup.Bootstrap;
-import io.dropwizard.setup.Environment;
 
 
 /**

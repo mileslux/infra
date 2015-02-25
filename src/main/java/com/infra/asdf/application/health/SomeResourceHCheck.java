@@ -1,4 +1,4 @@
-package com.infra.common.health;
+package com.infra.asdf.application.health;
 
 import com.codahale.metrics.health.HealthCheck;
 
