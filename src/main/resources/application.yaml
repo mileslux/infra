@@ -1,2 +1,14 @@
 template: Hello, %s!
 defaultName: Stranger
+
+metrics:
+  reporters:
+    - type: graphite
+      host: localhost
+      port: 2003
+      prefix: infra
+
+
+
+
+

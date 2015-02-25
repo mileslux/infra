@@ -32,7 +32,7 @@ public class DWApplication extends Application<DWConfiguration> {
         final SomeResourceHCheck hcheck =
                 new SomeResourceHCheck();
 
-        environment.jersey().register(hcheck);
+        environment.healthChecks().register("someresourcehealthcheck", hcheck);
         environment.jersey().register(resource);
     }
 }
