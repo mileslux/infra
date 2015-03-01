@@ -32,9 +32,9 @@ dependencies {
     //compile 'org.glassfish.jersey.containers:jersey-container-jetty-http:2.16'
     //compile 'org.glassfish.jersey.containers:jersey-container-servlet-core:2.16'
 
-    compile 'io.dropwizard:dropwizard-core:0.8.0-rc3'
-    compile 'io.dropwizard:dropwizard-metrics-graphite:0.8.0-rc3'
-    compile 'io.dropwizard:dropwizard-metrics:0.8.0-rc3'
+    compile 'io.dropwizard:dropwizard-core:0.8.0-rc4'
+    compile 'io.dropwizard:dropwizard-metrics-graphite:0.8.0-rc4'
+    compile 'io.dropwizard:dropwizard-metrics:0.8.0-rc4'
 
 }
 
