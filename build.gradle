@@ -36,6 +36,7 @@ dependencies {
     compile 'io.dropwizard:dropwizard-metrics-graphite:0.8.0-rc4'
     compile 'io.dropwizard:dropwizard-metrics:0.8.0-rc4'
 
+    testCompile 'io.dropwizard:dropwizard-testing:0.8.0-rc4'
 }
 
 jar {
@@ -53,6 +54,12 @@ test {
 
 // for 'application' plugin
 mainClassName = 'com.infra.asdf.application.Main'
+
+
+
+
+
+
 
 
 // this creates a new task for gradle
