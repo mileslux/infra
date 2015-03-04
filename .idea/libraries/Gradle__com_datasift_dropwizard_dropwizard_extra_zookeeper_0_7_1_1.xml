@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.datasift.dropwizard:dropwizard-extra-zookeeper:0.7.1-1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.datasift.dropwizard/dropwizard-extra-zookeeper/0.7.1-1/995cbda777c16f7becf1f503a88ee531f6fe070c/dropwizard-extra-zookeeper-0.7.1-1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.datasift.dropwizard/dropwizard-extra-zookeeper/0.7.1-1/52f64a9618a6bc5e58b9bbb019ec84513f2ee7d5/dropwizard-extra-zookeeper-0.7.1-1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

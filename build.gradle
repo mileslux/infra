@@ -10,6 +10,7 @@ version = '1.0'
 
 repositories {
     mavenCentral()
+    mavenLocal()
 }
 
 dependencies {
@@ -35,6 +36,8 @@ dependencies {
     compile 'io.dropwizard:dropwizard-core:0.8.0-rc5'
     compile 'io.dropwizard:dropwizard-metrics-graphite:0.8.0-rc5'
     compile 'io.dropwizard:dropwizard-metrics:0.8.0-rc5'
+
+    compile 'io.dropwizard.modules:dropwizard-discovery:0.8.0-rc5-0-SNAPSHOT'
 
     testCompile 'io.dropwizard:dropwizard-testing:0.8.0-rc5'
 }

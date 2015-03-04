@@ -113,6 +113,17 @@
     <orderEntry type="library" exported="" name="Gradle: io.dropwizard:dropwizard-jetty:0.8.0-rc5" level="project" />
     <orderEntry type="library" exported="" name="Gradle: io.dropwizard:dropwizard-lifecycle:0.8.0-rc5" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: io.dropwizard:dropwizard-testing:0.8.0-rc5" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: io.dropwizard.modules:dropwizard-discovery:0.8.0-rc5-0-SNAPSHOT" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.apache.curator:curator-framework:2.7.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.apache.curator:curator-x-discovery:2.7.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.apache.curator:curator-client:2.7.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.apache.zookeeper:zookeeper:3.4.6" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.apache.curator:curator-recipes:2.7.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.codehaus.jackson:jackson-mapper-asl:1.9.13" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: log4j:log4j:1.2.16" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jline:jline:0.9.94" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: io.netty:netty:3.7.0.Final" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.codehaus.jackson:jackson-core-asl:1.9.13" level="project" />
   </component>
   <component name="org.twodividedbyzero.idea.findbugs">
     <option name="_basePreferences">
