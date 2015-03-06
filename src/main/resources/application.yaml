@@ -8,6 +8,12 @@ metrics:
       port: 2003
       prefix: infra
 
+server:
+  applicationContextPath: /application
+  adminContextPath: /admin
+  applicationConnectors:
+      - type: http
+        port: 8100
 
 
 
