@@ -4,6 +4,10 @@ import com.infra.asdf.application.health.SomeResourceHCheck;
 import com.infra.asdf.application.resources.SomeResource;
 
 import io.dropwizard.Application;
+//import io.dropwizard.discovery.DiscoveryBundle;
+//import io.dropwizard.discovery.DiscoveryFactory;
+//import io.dropwizard.discovery.client.DiscoveryClient;
+//import io.dropwizard.discovery.client.DiscoveryClientManager;
 import io.dropwizard.setup.Bootstrap;
 import io.dropwizard.setup.Environment;
 
@@ -18,6 +22,7 @@ public class DWApplication extends Application<DWConfiguration> {
 
     @Override
     public void initialize(Bootstrap<DWConfiguration> bootstrap) {
+        //bootstrap.addBundle(discoveryBundle);
     }
 
     @Override
@@ -34,5 +39,17 @@ public class DWApplication extends Application<DWConfiguration> {
 
         environment.healthChecks().register("someresourcehealthcheck", hcheck);
         environment.jersey().register(resource);
+
+        // different service is required
+        //final DiscoveryClient client = discoveryBundle.newDiscoveryClient("other-service");
+        //environment.lifecycle().manage(new DiscoveryClientManager(client));
     }
+
+    //private final DiscoveryBundle<DWConfiguration> discoveryBundle = new DiscoveryBundle<DWConfiguration>() {
+    //    @Override
+    //    public DiscoveryFactory getDiscoveryFactory(DWConfiguration configuration) {
+    //        return configuration.getDiscoveryFactory();
+    //    }
+    //};
+
 }

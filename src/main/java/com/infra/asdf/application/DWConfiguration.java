@@ -6,7 +6,11 @@ package com.infra.asdf.application;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import io.dropwizard.Configuration;
+//import io.dropwizard.discovery.DiscoveryFactory;
 import org.hibernate.validator.constraints.NotEmpty;
+
+import javax.validation.Valid;
+import javax.validation.constraints.NotNull;
 
 public class DWConfiguration extends Configuration {
 
@@ -35,4 +39,20 @@ public class DWConfiguration extends Configuration {
     public void setDefaultName(String name) {
         this.defaultName = name;
     }
+
+
+
+//    @Valid
+//    @NotNull
+//    private DiscoveryFactory discovery = new DiscoveryFactory();
+
+//    @JsonProperty("discovery")
+//    public DiscoveryFactory getDiscoveryFactory() {
+//        return discovery;
+//    }
+
+//    @JsonProperty("discovery")
+//    public void setDiscoveryFactory(DiscoveryFactory discoveryFactory) {
+//        this.discovery = discoveryFactory;
+//    }
 }
