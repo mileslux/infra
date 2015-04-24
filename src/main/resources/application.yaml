@@ -13,7 +13,7 @@ server:
   adminContextPath: /admin
   applicationConnectors:
       - type: http
-        port: 8100
+        port: 8080
 
 
 
